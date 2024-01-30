@@ -7,11 +7,7 @@
     top: 50px;
 
     cursor: Default;
-}
 
-.others {
-    flex: 4;
-    background-color: rgb(206, 255, 248);
 }
 
 .sidebarWrapper {
@@ -38,11 +34,15 @@
     display: flex;
     align-items: center;
     border-radius: 10px;
+
+    text-decoration: none;
+    color:#555
 }
 .sidebarListItem.active,
 .sidebarListItem:hover {
     background-color: rgb(131, 253, 253);
     font-size: 17px;
+    
 }
 
 .sidebarIcon {
